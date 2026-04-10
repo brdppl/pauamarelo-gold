@@ -1,0 +1,260 @@
+@media only screen and (min-width: 992px) and (max-width: 1280px) { 
+ 
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.mainmenu-area ul.navbar-nav li a {
+    font-size: 14px;
+    padding: 15px 10px;
+  }  
+
+.single-promo {margin-bottom: 30px}    
+.single-product-widget, .footer-about-us, .footer-menu {
+    margin-bottom: 60px;
+  } 
+    
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+.navbar-header {
+    text-align: center;
+  }    
+    
+.navbar-toggle {
+    border-color: #fff;
+    float: none;
+    margin: 10px auto;
+  }
+
+.navbar-toggle .icon-bar {
+    background: none repeat scroll 0 0 #fff
+  }  
+
+.navbar-collapse.collapse.in {
+    background: none repeat scroll 0 0 #212121;
+    position: relative;
+    z-index: 99;
+  } 
+
+.mainmenu-area ul.navbar-nav li a {
+    padding: 15px;
+  } 
+
+.mainmenu-area {position: relative !important}
+.slide-text {
+    font-size: 16px;
+  }  
+
+.slide-text h2 {
+    font-size: 30px;
+  }
+
+
+.barrinha ul {
+  margin-left: -40%;
+}
+
+.social-icons {
+  display: none;
+}
+
+
+
+.main-nav .container {
+    display: none;
+  }
+
+  .inicio-cel {
+    display: block;
+  }
+
+  #home {
+    margin-top: 10%;
+  }
+
+  #main-slider {
+    display: none;
+  }
+
+  #main-slider .carousel-caption {
+    bottom: 17%;
+    padding: 10px;
+    line-height: 0;
+  }
+
+  #main-slider .carousel-caption h2 {
+    font-size: 20px;
+    margin-top: 3px;
+  }
+
+  #main-slider .carousel-caption h4 {
+    font-size: 16px;
+  }
+
+  #main-slider .carousel-caption a {
+    font-size: 14px;
+    color: #2da1c5;
+  }
+
+  .about-content {
+    padding: 10px 40px 30px 40px;
+  }
+
+  .about-content p {
+    font-size: 15px;
+  }
+
+  .players {
+    margin-top: -10%;
+    padding-left: 0%;
+    width: 100%;
+  }
+
+  .players .single-clan {
+    padding-left: 20%;
+  }
+
+  .imagem img:hover {
+    width: 80%;
+    transition: 0.3s;
+    border-radius: 110px;
+  }
+
+  #clan {
+    background-color: #f7ab24;
+    background-image: none;
+  }
+
+  #clan .heading {
+    text-align: center;
+  }
+
+ .modal-body {
+    position: relative;
+    margin-top: 535px;
+  }
+
+  .modal-body figure {
+    display: none;
+  }
+
+  .ex {
+    padding: 0 32.5% 0 32.5%;
+  }
+
+  .ex .modal-body {
+    position: relative;
+    margin-top: 305px;
+  }
+
+  .ex .modal-body #buren-btn {
+    position: relative;
+    margin-top: -600px;
+  }
+
+  .ex .modal-body #buren {
+    padding-bottom: 540px;
+  }
+
+  .ex .modal-body #rzao-btn {
+    position: relative;
+    margin-top: -600px;
+  }
+
+  .ex .modal-body #rzao {
+    padding-bottom: 200px;
+  }
+
+  .ex .modal-body #foto-ex {
+    display: none;
+  }
+
+  .ajuste img {
+    width: 200px;
+    padding-top: 100%;
+  }
+
+  .caixinha {
+    margin: 0 25% 0 25%;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 30px;
+  }
+
+  .mapa-text {
+    margin-left: -15%;
+    margin-top: -10%;
+  }
+
+  .requisitos {
+    padding: 10px 40px 30px 40px;
+    margin-left: -1%;
+  }
+
+  #insc-title {
+    text-align: center;
+  }
+
+  .form-group {
+    padding-left: 16%;
+  }
+
+  .news-body {
+    width: 100%;
+    padding: 100px 0 30px 0;
+    margin: 7% 0 0 0;
+    box-shadow: 0px 4px 2px 1px #999999;
+  }
+
+.corpo-noticia {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 0 30px 0;
+  margin: 0 0 0 0;
+  box-shadow: 0px 4px 2px 1px #999999;
+}
+
+.corpo-noticia p {
+  color: #000;
+  text-transform: none;
+  text-align: justify;
+  padding: 0 0 0 0;
+}
+
+.legenda {
+  font-size: 11px;
+  margin-left: 47%;
+}
+
+.legenda1 {
+  font-size: 11px;
+  margin-left: 28%;
+}
+
+.corpo-noticia #citacao {
+  margin: 0 0 0 0;
+  width: auto;
+  text-align: center;
+}
+
+.corpo-noticia #image-map {
+  max-width: 100%;
+}
+
+.linha-vertical {
+  height: 0; /*Altura da linha*/
+  border-left: 1px solid;
+  color: #d9d9d9;
+  margin-top: 15px;
+}
+
+  footer p {
+    font-size: 20px;
+  }
+
+}

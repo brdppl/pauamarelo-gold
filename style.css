@@ -1,0 +1,693 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+
+/*************************
+*******Typography******
+**************************/
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  color: #fff
+}
+
+
+.btn {
+  border-radius: 0;
+  font-family: 'Yanone Kaffeesatz','sans-serif';
+  font-size: 20px;
+  padding: 9px 23px;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+a:focus, 
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+/*************************
+*******mainmenu CSS*******
+**************************/
+
+.barrinha ul {
+  padding-left: 32%;
+}
+
+.mainmenu-area {
+  background: none repeat scroll 0 0 #212121; 
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 1px -1px 1px 1px #737373;
+}
+
+.mainmenu-area ul.navbar-nav li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.mainmenu-area ul.navbar-nav li:hover a, .mainmenu-area ul.navbar-nav li.active a {
+  background: #4d4d4d
+}
+
+.mainmenu-area .nav > li > a:focus {
+  color: #4d4d4d
+}
+
+#main-slider img {
+  width: 100%
+}
+
+#main-slider 
+.carousel-caption {
+  background: none repeat scroll 0 0 #000000;
+  bottom: 14%;
+  float: left;
+  left: 0;
+  opacity: 0.8;
+  padding:10px 60px 35px;
+  right: inherit;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+
+#main-slider 
+.carousel-caption h2 {  
+  font-size: 38px;
+ 
+}
+
+#main-slider 
+.carousel-caption h4 {
+  font-size: 24px;
+}
+
+#main-slider 
+.carousel-caption a {
+  font-size: 22px;
+  color: #2da1c5
+}
+
+#main-slider 
+.carousel-caption a:hover {
+  color: #2588a6
+}
+
+#main-slider 
+.carousel-caption a:hover i {
+  margin-left: 35px
+}
+
+#main-slider 
+.carousel-caption a i {
+  margin-left: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#main-slider 
+.carousel-indicators li {
+  background-color:#1B7B98;
+  border: 1px solid #1B7B98;
+}
+
+#main-slider 
+.carousel-indicators li.active {
+  background-color:#fff;
+  border: 1px solid #fff;
+}
+
+/*************************
+*********clan CSS*********
+**************************/
+
+#clan {
+  background-color: #33888F;
+  background-image: url("images/bg.png");
+  background-position: 50% 0; 
+  background-size: 100%;
+  position: relative;
+  background-repeat: no-repeat; 
+}
+
+#clan p {
+  text-align: justify;
+}
+
+.players {
+  padding-left: 250px;
+}
+
+#clan h2 {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  text-transform: uppercase;
+}
+
+.imagem img {
+  width: 80%;
+  transition: 0.3s;
+  border-radius: 110px;
+}
+
+.imagem img:hover {
+  width: 100%;
+  transition: 0.3s;
+  border-radius: 2px;
+}
+
+.single-clan {
+  margin-bottom: 70px;
+}
+
+.single-clan h4 {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.single-clan h5 {
+  font-size: 18px;
+  font-weight: 100;
+  display: block;
+}
+
+#clan-carousel {
+  position: relative;
+}
+
+#patente {
+  width: 75px;
+  float: left;
+}
+
+.about-content {
+  background-color: #000;
+  opacity: 0.8;
+  width: 90%;
+  padding: 10px 70px 30px 70px;
+  margin: 0 0 0 5%;
+}
+
+#about h2 {
+  margin-bottom: 23px;
+}
+
+.about-content p {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Dosis',sans-serif;
+}
+
+#about .btn-primary {
+  background-color: #137c61;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  margin-top: 28px;
+}
+
+#about .btn-primary:hover {
+  background-color: #126d55
+}
+
+/*************************
+********projeto CSS*******
+**************************/
+
+.mapa-section {
+  background-color: #f7ab24;
+  background-position:60% 0;
+  background-size:contain;
+  background-repeat:no-repeat;  
+  position: relative;
+}
+
+#mapa .container {
+  padding-top:47px;
+}
+
+#mapa h1 {
+  text-transform: uppercase;
+  color: #373737;
+}
+
+#mapa h2 {
+  text-transform: uppercase;
+  color: #373737;
+}
+
+#mapa-section h3 {  
+  margin-bottom: 25px
+}
+
+#mapa p {
+  font-size: 18px;  
+  color: #373737; 
+}
+
+.mapa-text {
+  margin-bottom: 35px;
+  padding: 10% 0 0 20%;
+}
+
+/*************************
+********peneira CSS*******
+**************************/
+
+.cor {
+  background-color: #4d4d4d;
+}
+
+.inscricao {
+  padding: 0 9% 0 11%;
+}
+
+.requisitos {
+  padding: 10px 70px 30px 70px;
+  width: 101%;
+  opacity: 1;
+  background-color: rgba(0,0,0,.3);
+  border-radius: 2px;
+}
+
+.tira {
+  color: #e6e6e6;
+  background-color: #212121;
+  padding: 30px 0 30px 0;
+}
+
+/*************************
+********Footer CSS********
+**************************/
+
+#footer {
+  background-color: #212121;
+  background-image: url("../images/foter-bg.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 35px 0;
+}
+
+#footer p {
+  margin-bottom: -1px;
+}
+
+.modal-body button {
+  width: 200px;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.modal-body button:hover {
+  color: gray;
+}
+
+.modal-body p {
+  color: #000;
+}
+
+.logo img {
+  width: 200px;
+}
+
+/*************************
+******FOTO-CAMADA*********
+**************************/
+
+figure.foto-camada {
+    position: relative;
+    height: 100%;
+}
+
+figure.foto-camada figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: #ffffff;
+    width: 53%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+figure.foto-camada:hover figcaption {
+    opacity: 1;
+    transition: 0.5s;
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.foto-camada img {
+  box-shadow: 1px 1px 3px 1px gray;
+}
+
+.social-icons {
+  float: left;
+  position: absolute;
+  margin: 40px 0 0 -100px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  color: #fff;
+  padding-left:20px;
+}
+
+.social-icons .fa-facebook {
+  transition: 0.3s;
+}
+
+.social-icons .fa-facebook:hover {
+  color: #3B5997;
+  transition: 0.3s;
+}
+
+.social-icons .fa-twitter {
+  transition: 0.3s;
+}
+
+.social-icons .fa-twitter:hover {
+  color:#29C5F6;
+  transition: 0.3s;
+}
+
+.social-icons .fa-youtube {
+  transition: 0.3s;
+}
+
+.social-icons .fa-youtube:hover {
+  color: #ec5538;
+  transition: 0.3s;
+}
+
+.social-icons .fa-steam {
+  transition: 0.3s;
+}
+
+.social-icons .fa-steam:hover {
+  color: #404040;
+  transition: 0.3s;
+}
+
+.topmid {
+  background-color: #4d4d4d;
+  background: url(images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: block;
+  background-size: 100%;
+}
+
+/*************************
+*********news CSS*********
+**************************/
+
+.news-bg {
+  background-color: #e6e6e6;
+}
+
+.news-header {
+  background-color: #fff;
+  padding: 10px 0 20px 0;
+  position: absolute;
+  width: 100%;
+
+}
+
+.news-header0 {
+  background-color: #008ae6;
+  padding: 10px 0 20px 0;
+  position: absolute;
+  width: 100%;
+  height: 103px;
+}
+
+.news-header h1 {
+  color: #000;
+}
+
+.news-body {
+  background-color: #fff;
+  width: 80%;
+  padding: 80px 70px 30px 70px;
+  margin: 4% 0 0 10%;
+  box-shadow: 0px 4px 2px 1px #999999;
+}
+
+.news-body h1 {
+  color: #000;
+  font-size: 40px;
+  text-transform: none;
+}
+
+.news-body h2 {
+  color: #000;
+  text-transform: none;
+}
+
+.news-body h3 {
+  color: #000;
+  text-transform: none;
+}
+
+.news-body p {
+  color: #000;
+  text-transform: none;
+  text-align: justify;
+}
+
+.news-body img {
+  width: 150px;
+  box-shadow: 0px 0px 4px 1px #999999;
+}
+
+.news-body hr {
+  width: 80%;
+  margin-right: 20%;
+}
+
+.corpo-noticia {
+  background-color: #fff;
+  width: 82%;
+  padding: 20px 70px 30px 0;
+  margin: 0 0 0 9%;
+  box-shadow: 0px 4px 2px 1px #999999;
+}
+
+.corpo-noticia h1 {
+  color: #000;
+  font-size: 40px;
+  text-transform: none;
+  text-align: center;
+}
+
+.corpo-noticia h2 {
+  color: #000;
+  text-transform: none;
+}
+
+.corpo-noticia h3 {
+  color: #000;
+  text-transform: none;
+  padding-left: 5%;
+  margin: 4% 0 -2% 0;
+}
+
+.corpo-noticia p {
+  color: #000;
+  text-transform: none;
+  text-align: justify;
+  padding: 0 70px 0 60px;
+}
+
+.corpo-noticia #citacao {
+  margin: 0 auto 0 auto;
+  width: 28.4em;
+}
+
+.corpo-noticia img {
+  display: block;
+  margin: 0 auto 0 auto;
+  max-width: 250px;
+  box-shadow: 0px 0px 4px 1px #999999;
+}
+
+.corpo-noticia hr {
+  width: 85%;
+  margin-right: 10%;
+}
+
+.legenda {
+  font-size: 11px;
+  margin-left: 40%;
+}
+
+.legenda1 {
+  font-size: 11px;
+  margin-left: 32%;
+}
+
+.legenda2 {
+  font-size: 11px;
+  margin-left: 37%;
+}
+
+.legenda3 {
+  font-size: 11px;
+  margin-left: 35%;
+}
+
+.corpo-noticia #image-map {
+  max-width: 400px;
+}
+
+.linha-vertical {
+  height: 1080px; /*Altura da linha*/
+  border-left: 1px solid;
+  color: #d9d9d9;
+  margin-top: 15px;
+}
+
+.relacionadas p {
+  text-align: left;
+  padding-top: 2%;
+}
+
+.relacionadas img {
+  max-width: 60px;
+  float: left;
+  margin: 0 3% 0 5%;
+  box-shadow: none;
+}
+
+.relacionadas a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+
+
+figure.foto-camada1 {
+    position: relative;
+}
+
+figure.foto-camada1 figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: #ffffff;
+    width: 17%;
+    height: 83px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-left: 5%;
+}
+
+figure.foto-camada1:hover figcaption {
+    opacity: 0.5;
+    transition: 0.5s;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+
+figure.foto-camada2 {
+    position: relative;
+}
+
+figure.foto-camada2 figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: #ffffff;
+    width: 17%;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-left: 5%;
+}
+
+figure.foto-camada2:hover figcaption {
+    opacity: 0.5;
+    transition: 0.5s;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+
+figure.foto-camada3 {
+    position: relative;
+}
+
+figure.foto-camada3 figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: #ffffff;
+    width: 17%;
+    height: 90px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-left: 5%;
+}
+
+figure.foto-camada3:hover figcaption {
+    opacity: 0.5;
+    transition: 0.5s;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+
+.enunciado h2 {
+  transition: 0.5s;
+}
+
+.enunciado:hover h2 {
+  color: #0059b3;
+  transition: 0.5s;
+}
+
+
+
+/* #footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+*/
