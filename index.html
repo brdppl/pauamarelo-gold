@@ -32,7 +32,6 @@
     <![endif]-->
 </head>
   <body>
-   
     <div class="area-marca topmid">
         <div class="container">
             <div class="row">
@@ -536,5 +535,17 @@
     <script src="js/jquery.easing.1.3.min.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+    <script>
+        window.onload = function() {
+            const sound = new Audio('sítio-do-picapau-amarelo.mp3');
+
+            sound.loop = true;
+            sound.volume = 0.03;
+            sound.play().catch(function(error) {
+                console.log("Autoplay bloqueado pelo navegador. Aguardando interação.");
+            });
+        }
+    </script>
   </body>
 </html>
